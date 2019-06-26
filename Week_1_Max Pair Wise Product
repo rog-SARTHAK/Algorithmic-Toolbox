@@ -1,0 +1,7 @@
+# Uses python3
+num = int(input())
+a = list(map(int,input().strip().split()))[:num]
+b = (sorted(a))
+l1=(b[-1])
+l2=(b[-2])
+print(l1*l2)
