@@ -1,0 +1,6 @@
+def elucid(a,b):
+    if b == 0:
+        return a
+    A = a % b
+    return elucid(b,A)
+print (elucid(357,234))
