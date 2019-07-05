@@ -1,0 +1,10 @@
+# Uses Python 3
+arr = [5, 7, 3, 9, 1, 9]
+arr2 = []
+for i in range (0,len(arr)):
+    
+    arr.sort(reverse=True)
+    p = arr[0]
+    arr2.append(p)
+    arr.remove(p)
+print (*arr2,sep ='')
